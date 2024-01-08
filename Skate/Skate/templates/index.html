@@ -14,6 +14,12 @@
     <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
     <title>Wizard Skate.com</title>
     <style>
+      body {
+            background-image: url('{% static "assets/img/background.jpg" %}');
+            background-size: contain;
+            background-position: center;
+            color: white; /* Adicionei essa propriedade para garantir que o texto seja visível na imagem de fundo */
+        }
       .card{
           background-color: rgba(255,255,255,0.13);
           border-radius: 10px;

@@ -1,0 +1,76 @@
+#shadow{
+ background-color: black;
+ border-radius: 5px;
+ position: relative;
+ font-size: 200%;
+}
+.header{
+ text-shadow: 2px 4px 14px rgba(255,55,155);
+ font-size: 200%;
+ text-align: center;
+ font-family: 'open_sansregular';
+ position: relative;
+}
+
+.h1{
+ text-shadow: 2px 4px 14px rgba(255,55,155);
+ font-size: 200%;
+ font-family: 'open_sansregular';
+}
+
+.shadow{
+ background-color: black;
+ font-size: 200%;
+ font-family: 'open_sansregular';
+}
+
+.imagem{
+    position: relative;
+    width: 180px_
+}
+
+.imagem img{
+    border: 10px solid grey;
+    border-bottom: solid 25px grey;
+    -webkit-box-shadow : 3px 3px 3px black;
+    -moz-box-shadow : 3px 3px 3px black;
+    box-shadow : 3px 3px 3px black;
+}
+
+.imagem p{
+ position : absolute;
+ width : 100 %;
+ bottom : 0px _
+ color : white;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+<style>
+    .JAN {
+    margin: .1rem;
+    padding: .2rem;
+    width: 100px;
+    background-color: #D2691E;
+    font: 2rem 'Fira Sans', sans-serif;
+}
+.JAN > h1,
+.day {
+    margin: .4rem;
+    padding: .2rem;
+    font-size: 1rem;
+}
+.day {
+    background: border-box no-repeat
+    gray;
+}
+.day > h2,
+.day > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+</style>
+<article class="JAN">
